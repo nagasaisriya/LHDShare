@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Snoopy, where are we?",
+    "version": "0.1.0",
+    "description": "Ask Snoopy where you are and he'll meow the page title at you.",
+    "browser_action":{
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "24": "icon16.png",
+            "32": "icon16.png"
+        }
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
